@@ -1,0 +1,247 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-image: url(comp.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+}
+
+.main-block{
+	width: 50%;
+	min-width: 375px;
+	height: 100%;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	position: fixed;
+	background: white;
+	overflow-y: auto;
+}
+
+.block-for-foto{
+	width: 100%;
+	height: 100px;
+	background: rgb(131, 131, 255);
+	display: flex;
+	justify-content: center;
+}
+
+.block-foto{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: white;
+	background-image: url(foto/foto-portfolio.jpeg);
+	background-size: cover;
+	position: absolute;
+	top: 25px;
+	cursor: pointer;
+}
+
+.block-my-name{
+	width: 100%;
+	height: auto;
+	margin-top: 75px;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+	padding-bottom: 0px;
+	font-size: 26px;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+
+.sort-info{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.block-info-about-me{
+	width: 80%;
+	height: auto;
+	padding: 40px 5%;
+	background: rgba(0,0,0,0.03);
+	margin: 64px auto;
+	margin-bottom: 0px;
+}
+
+
+.container-tit-and-user{
+	width: 100%;
+	height: auto;
+	display: flex;
+	font-size: 22px;
+}
+
+.title-info{
+	width: 100%;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.my-info{
+	width: auto;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+
+.fa-user-circle{
+	color: rgb(131, 131, 255);
+}
+
+.container-for-skils-and-experience{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+.block-skils{
+	width: 32.5%;
+	height: auto;
+	margin: 2.5% 5%;
+	padding: 5%;
+	margin-right: 2.5%;
+	background: rgba(0,0,0,0.03);
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.title-skil{
+	width: 100%;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.info-skil{
+	width: 100%;
+	width: auto;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+
+.block-experiance{
+	width: 32.5%;
+	height: auto;
+	margin: 2.5% 5%;
+	padding: 5%;
+	margin-left: 2.5%;
+	background: rgba(0,0,0,0.03);
+}
+
+.title-exper{
+	width: 100%;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.info-exper{
+	width: 100%;
+	width: auto;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+
+.block-contacts{
+	width: 32.5%;
+	height: auto;
+	margin: 2.5% 5%;
+	padding: 5%;
+	margin-right: 2.5%;
+	background: rgba(0,0,0,0.03);
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.info-contacts{
+	width: 100%;
+	width: auto;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+
+.block-education{
+	width: 32.5%;
+	height: auto;
+	margin: 2.5% 5%;
+	padding: 5%;
+	margin-left: 2.5%;
+	background: rgba(0,0,0,0.03);
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.info-about-education{
+	width: 100%;
+	width: auto;
+	height: auto;
+	font-family: "Segoe UI", Ubuntu, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 1200px){
+
+	.media-calss{
+		width: 90%;
+		margin: 2.5% 5%;
+	}
+
+	.container-for-skils-and-experience{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-top: 2.5%;
+	}
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.4); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.6);
+}
